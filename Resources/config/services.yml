@@ -1,0 +1,4 @@
+services:
+    antkowiak.validator:
+        class: Antkowiak\ValidationBundle\Service\Validator
+        arguments: ["@validator"]
