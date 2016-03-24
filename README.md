@@ -13,17 +13,18 @@ Usage
 
     $validator->isValid($object); //boolean
     $validator->getMessages($object); //array with messages
-    /**
-    * array:2 [
-    *     "text" => array:1 [
-    *         0 => "Ta wartość nie powinna być pusta."
-    *     ]
-    *     "email" => array:2 [
-    *         0 => "Ta wartość nie jest prawidłowym adresem email."
-    *         1 => "Ta wartość jest zbyt krótka. Powinna mieć 3 lub więcej znaków."
-    *     ]
-    * ]
-    */
+    
+##### Example messages array:
+
+    array:2 [
+      "user" => array:1 [
+        0 => "Ta wartość nie powinna być pusta."
+      ]
+      "name" => array:2 [
+        0 => "Ta wartość nie jest prawidłowym adresem email."
+        1 => "Ta wartość jest zbyt krótka. Powinna mieć 3 lub więcej znaków."
+      ]
+    ]
 License
 -------
 
